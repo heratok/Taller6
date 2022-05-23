@@ -2,29 +2,27 @@ package modelo;
 
 public class profesorInterno extends profesor {
 
-    private String FechaIncorporo;
+    private String fechaIncorporo;
 
-    public profesorInterno(String FechaIncorporo, String Id) {
-        super(Id);
-        this.FechaIncorporo = FechaIncorporo;
+    public profesorInterno() {
     }
 
     public profesorInterno(String Nombre, String Apellido, String Id, String FechaIncorporo) {
         super(Nombre, Apellido, Id);
-        this.FechaIncorporo = FechaIncorporo;
+        this.fechaIncorporo = FechaIncorporo;
     }
 
-    public String getFecha_Incorporo() {
-        return FechaIncorporo;
+    public String getFechaIncorporo() {
+        return fechaIncorporo;
     }
 
-    public void setFecha_Incorporo(String FechaIncorporo) {
-        this.FechaIncorporo = FechaIncorporo;
+    public void setFechaIncorporo(String fechaIncorporo) {
+        this.fechaIncorporo = fechaIncorporo;
     }
 
     @Override
     public String toString() {
-        return "Fecha en la que se incorporo:" + FechaIncorporo;
+        return "-La Fecha en la que se incorporo el deocente es: " + fechaIncorporo;
     }
 
 }

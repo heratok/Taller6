@@ -4,8 +4,7 @@ public class profesor extends persona {
 
     private String Id;
 
-    public profesor(String Id) {
-        this.Id = Id;
+    public profesor() {
     }
 
     public profesor(String Nombre, String Apellido, String Id) {

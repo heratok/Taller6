@@ -29,8 +29,8 @@ public class persona {
         this.Apellido = Apellido;
     }
 
-    public String info() {
-        return "Nombre de profesor: " + Nombre + " " + Apellido;
+    public String verDatos() {
+        return "-El Nombre de profesor es : " + Nombre + " " + Apellido;
     }
 
 }
